@@ -225,7 +225,6 @@ app/
 #### NotificationListenerService
 - System service that receives all notifications
 - Filters out blocked apps
-- Detects OTP codes
 - Stores to Room database
 
 #### Room Database
@@ -255,7 +254,6 @@ app/
 
 ### Permissions Required
 - `android.permission.BIND_NOTIFICATION_LISTENER_SERVICE` - To read notifications
-- `android.permission.POST_NOTIFICATIONS` - To send test notifications
 - `android.permission.FOREGROUND_SERVICE` - For background service
 - `android.permission.WRITE_EXTERNAL_STORAGE` - For export (Android 12 and below)
 
@@ -274,40 +272,6 @@ android {
     }
 }
 ```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### Reporting Bugs
-1. Check if the issue already exists
-2. Create a new issue with:
-   - Clear description
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Screenshots if applicable
-   - Device and Android version
-
-### Suggesting Features
-1. Open an issue with the "enhancement" label
-2. Describe the feature and its benefits
-3. Provide use cases
-
-### Submitting Pull Requests
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow Kotlin coding conventions
-- Write meaningful commit messages
-- Add comments for complex logic
-- Test on multiple Android versions
-- Ensure no lint warnings
 
 ---
 
@@ -333,49 +297,5 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🙏 Acknowledgments
-
-- [Android Developers](https://developer.android.com/) for excellent documentation
-- [Jetpack Compose](https://developer.android.com/jetpack/compose) for modern UI toolkit
-- [Material Design](https://m3.material.io/) for design guidelines
-- The Android community for inspiration and support
-
----
-
-## 📧 Contact
-
-- **Developer:** [afandi-fa]
-- **Email:** afandiahmed24@gmail.com@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/muhammaddzikryafandi)
-- **GitHub:** [@afandi-fa](https://github.com/afandi-fa)
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Widget support for quick access
-- [ ] Advanced analytics with charts
-- [ ] Notification templates
-- [ ] Cloud backup (optional)
-- [ ] Multi-language support
-- [ ] Notification scheduling
-- [ ] Export to PDF
-- [ ] Notification statistics
-
----
-
-## ⭐ Star History
-
-If you find this project useful, please consider giving it a star! ⭐
-
-[![Star History Chart](https://api.star-history.com/svg?repos=afandi-fa/notification-logger&type=Date)](https://star-history.com/#afandi-fa/notification-logger&Date)
-
----
-
-<div align="center">
-
-**Made with ❤️ using Kotlin and Jetpack Compose**
-
-[⬆ Back to Top](#-notification-logger)
 
 </div>
