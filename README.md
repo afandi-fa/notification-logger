@@ -20,8 +20,6 @@
 
 Notification Logger is a powerful yet simple Android application built with modern Android development practices. It automatically logs all notifications received on your device, making it easy to:
 
-- 🔐 Never lose an OTP code again
-- 📊 Analyze your notification patterns
 - 🔍 Search through notification history
 - 📤 Export data for backup or analysis
 - 🎯 Filter out unwanted notifications
@@ -38,11 +36,6 @@ Notification Logger is a powerful yet simple Android application built with mode
   - Captures all notifications in real-time
   - Stores title, text, app name, timestamps, and metadata
   - Background service ensures no notification is missed
-
-- **Smart OTP Detection**
-  - Automatically detects 4-8 digit OTP codes
-  - One-tap copy to clipboard
-  - Visual highlight for OTP notifications
 
 - **Advanced Search & Filtering**
   - Full-text search across all notification fields
@@ -84,13 +77,13 @@ Notification Logger is a powerful yet simple Android application built with mode
 
 <div align="center">
 
-| Home Screen | Filter & Rules | Settings |
-|-------------|----------------|----------|
-| ![Home](screenshots/home.png) | ![Filter](screenshots/filter.png) | ![Settings](screenshots/settings.png) |
+| Home Screen | Filter & Rules 1 | Filter & Rules 2 | | Filter & Rules 3 |
+|-------------|----------------|----------|----------|
+| ![Home](screenshots/home.png) | ![Filter](screenshots/filter1.png) | ![Settings](screenshots/filter2) | ![Settings](screenshots/filter3) |
 
-| Notification Detail | OTP Detection | Search |
+| Notification Detail | Settings | Search |
 |---------------------|---------------|--------|
-| ![Detail](screenshots/detail.png) | ![OTP](screenshots/otp.png) | ![Search](screenshots/search.png) |
+| ![Detail](screenshots/detail.png) | ![OTP](screenshots/settings.png) | ![Search](screenshots/search.png) |
 
 </div>
 
@@ -108,7 +101,7 @@ Notification Logger is a powerful yet simple Android application built with mode
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/notification-logger.git
+   git clone https://github.com/afandi-fa/notification-logger.git
    cd notification-logger
    ```
 
@@ -127,7 +120,7 @@ Notification Logger is a powerful yet simple Android application built with mode
 
 ### Download APK
 
-Download the latest APK from the [Releases](https://github.com/yourusername/notification-logger/releases) page.
+Download the latest APK from the [Releases](https://github.com/afandi-fa/notification-logger/releases) page.
 
 ---
 
@@ -351,10 +344,10 @@ copies or substantial portions of the Software.
 
 ## 📧 Contact
 
-- **Developer:** [Your Name]
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [@yourusername](https://github.com/yourusername)
+- **Developer:** [afandi-fa]
+- **Email:** afandiahmed24@gmail.com@example.com
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/muhammaddzikryafandi)
+- **GitHub:** [@afandi-fa](https://github.com/afandi-fa)
 
 ---
 
@@ -375,7 +368,7 @@ copies or substantial portions of the Software.
 
 If you find this project useful, please consider giving it a star! ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/notification-logger&type=Date)](https://star-history.com/#yourusername/notification-logger&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=afandi-fa/notification-logger&type=Date)](https://star-history.com/#afandi-fa/notification-logger&Date)
 
 ---
 

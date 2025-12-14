@@ -13,7 +13,7 @@ interface NotificationDao {
     @Query("SELECT * FROM notifications WHERE packageName = :packageName ORDER BY timestampReceived DESC")
     fun getNotificationsByPackage(packageName: String): Flow<List<NotificationEntity>>
 
-    @Query("SELECT * FROM notifications WHERE title LIKE '%' || :query || '%' OR text LIKE '%' || :query || '%' ORDER BY timestampReceived DESC")
+    @Query("SELECT * FROM notifications WHERE appName LIKE '%' || :query || '%' OR title LIKE '%' || :query || '%' OR text LIKE '%' || :query || '%' OR bigText LIKE '%' || :query || '%' ORDER BY timestampReceived DESC")
     fun searchNotifications(query: String): Flow<List<NotificationEntity>>
 
     @Query("SELECT * FROM notifications WHERE isOTP = 1 ORDER BY timestampReceived DESC")
