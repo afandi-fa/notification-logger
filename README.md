@@ -77,7 +77,7 @@ Notification Logger is a powerful yet simple Android application built with mode
 
 <div align="center">
 
-| Home Screen | Filter & Rules 1 | Filter & Rules 2 | | Filter & Rules 3 |
+| Home Screen | Filter & Rules 1 | Filter & Rules 2 | Filter & Rules 3 |
 |-------------|----------------|----------|----------|
 | ![Home](screenshots/home.png) | ![Filter](screenshots/filter1.png) | ![Settings](screenshots/filter2) | ![Settings](screenshots/filter3) |
 
