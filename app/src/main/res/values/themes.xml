@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.NotificationLogger"
+    parent="android:Theme.Material.Light.NoActionBar">
+
+    <!-- SYSTEM BARS -->
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="android:navigationBarColor">@android:color/transparent</item>
+
+    <!-- WINDOW BACKGROUND (KRUSIAL) -->
+    <item name="android:windowBackground">@color/app_background</item>
+
+    <!-- Disable default splash -->
+    <item name="android:windowSplashScreenBackground">@color/app_background</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@null</item>
+
+</style>
+
+</resources>

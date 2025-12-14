@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Background (DARK) -->
+    <color name="app_background">#121212</color>
+
+    <!-- Brand dark variant -->
+    <color name="primary">#D0BCFF</color>
+    <color name="primary_container">#4F378B</color>
+    <color name="secondary">#CCC2DC</color>
+    <color name="secondary_container">#4A4458</color>
+
+</resources>

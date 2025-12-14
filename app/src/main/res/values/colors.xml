@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Background (LIGHT) -->
+    <color name="app_background">#FFFFFFFF</color>
+
+    <!-- Brand (optional, boleh kamu ganti nanti) -->
+    <color name="primary">#6750A4</color>
+    <color name="primary_container">#EADDFF</color>
+    <color name="secondary">#625B71</color>
+    <color name="secondary_container">#E8DEF8</color>
+
+</resources>
